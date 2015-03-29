@@ -20,6 +20,7 @@ class Player
 end
 
 class MainMenu
+ @@players = Array.new
   def initialize
 	choose()
 	while(true) do
